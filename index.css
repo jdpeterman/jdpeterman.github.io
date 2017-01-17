@@ -1,0 +1,75 @@
+* {
+	font-family: "Playfair Display", "News Cycle", sans-serif;
+}
+
+#font {
+	font-family: "News Cycle", sans-serif;
+}
+
+.navbar-default {
+	background-color: #737373;
+	font-size: 20px;
+
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	font-size: 30px;
+	padding-bottom: 1em;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFF;
+	font-family: News Cycle;
+}
+
+ .navbar-default .navbar-header a:visited {
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:visited {
+	color: white;
+	background-color: #A29C9C;
+}
+
+.jumbotron {
+	background-color: #C30124;
+	color: white;
+	background-size: cover;
+}
+
+.shadow {
+	-webkit-box-shadow inset: 0 0 10px #000000; /* Safari,  iOS, Android */
+	-moz-box-shadow: inset 0 0 10px #000000; /* Firefox 3.5 - 3.6 */
+	box-shadow: inset 0 0 10px #000000; /* Opera, IE, Firefox 4+, Chrome, iOS 5 */
+}
+
+.btn-default:active, .btn-default:focus, .btn-default:hover {
+	border-color: black; 
+	background-color: white;
+}
+
+.shadow-caps {
+	-webkit-box-shadow inset: 0 0 10px #808080; /* Safari,  iOS, Android */
+	-moz-box-shadow: inset 0 0 10px #808080; /* Firefox 3.5 - 3.6 */
+	box-shadow: inset 0 0 10px #808080; /* Opera, IE, Firefox 4+, Chrome, iOS 5 */
+}
+
+p {
+	font-size: 18px;
+}
+
+#resize {
+	width:50px;
+	height:auto;
+}
+
+.form-control {
+	font-size: 18px;
+}
+
+body {
+	margin-bottom: 20px;
+}
